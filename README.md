@@ -1,6 +1,6 @@
 <div align="center">
 
-  ![Velvet Logo](/assets/logo.png)
+  <img src="/assets/logo.png" width="150" height="150" />
 
   # Velvet
 
