@@ -1,4 +1,20 @@
-# Velvet
+<div align="center">
+
+  ![Velvet Logo](/assets/logo.png)
+
+  # Velvet
+
+  [![License: Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
+  [![Favoritados](https://img.shields.io/github/stars/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/stargazers)
+  [![Tam. Código](https://img.shields.io/github/languages/code-size/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet)
+  [![Contribuidores](https://img.shields.io/github/contributors/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/graphs/contributors)
+  [![Issues](https://img.shields.io/github/issues/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/issues) \
+  [![Pull Requests](https://img.shields.io/github/issues-pr/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/pulls)
+  [![Commit Activity](https://img.shields.io/github/commit-activity/t/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/commits/main)
+  [![Last Commit](https://img.shields.io/github/last-commit/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/commits/main) \
+  [![Made with Love](https://img.shields.io/badge/feito%20com-amor-pink?style=flat-square)](https://github.com/uesleibros/velvet/graphs/contributors)
+
+</div>
 
 **Velvet** é uma plataforma full-stack descentralizada para exploração, curadoria e automação de conteúdo relacionado a anime. Integrando tecnologias modernas e arquitetura modular, Velvet conecta múltiplas fontes externas e redes comunitárias, entregando uma experiência consistente e escalável através de Web, API e bots.
 
