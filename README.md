@@ -109,10 +109,6 @@ cargo test --all
 
 ## Documentação
 
-A documentação completa será publicada em:
-
-📎 [`https://velvet.network/docs`](https://velvet.network/docs) *(em construção)*
-
 Documentos técnicos e diagrama de arquitetura estão disponíveis na pasta `docs/`.
 
 ## Contribuindo
