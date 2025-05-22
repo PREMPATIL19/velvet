@@ -4,6 +4,8 @@
 
   # Velvet
 
+  ![Velvet Room](https://count.getloli.com/get/@velvetroom?theme=original-new)
+
   [![License: Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
   [![Favoritados](https://img.shields.io/github/stars/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/stargazers)
   [![Tam. Código](https://img.shields.io/github/languages/code-size/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet)
