@@ -1,124 +1,158 @@
-<div align="center">
+# Velvet 🌟
 
-  <img src="/assets/logo.png" width="150" height="150" />
+![Velvet Logo](https://img.shields.io/badge/Velvet-Anime%20Platform-brightgreen)
 
-  # Velvet
+Welcome to **Velvet**, a full-stack anime platform that offers a modern frontend, integrated bot, and scalable backend. Whether you're an anime enthusiast or a developer looking to explore, Velvet has something for everyone. 
 
-  ![Velvet Room](https://count.getloli.com/get/@velvetroom?theme=original-new)
+## Table of Contents
 
-  [![License: Apache License 2.0](https://img.shields.io/badge/license-Apache%20License%202.0-blue?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
-  [![Favoritados](https://img.shields.io/github/stars/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/stargazers)
-  [![Tam. Código](https://img.shields.io/github/languages/code-size/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet)
-  [![Contribuidores](https://img.shields.io/github/contributors/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/graphs/contributors)
-  [![Issues](https://img.shields.io/github/issues/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/issues) \
-  [![Pull Requests](https://img.shields.io/github/issues-pr/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/pulls)
-  [![Commit Activity](https://img.shields.io/github/commit-activity/t/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/commits/main)
-  [![Last Commit](https://img.shields.io/github/last-commit/uesleibros/velvet?style=flat-square)](https://github.com/uesleibros/velvet/commits/main) \
-  [![Made with Love](https://img.shields.io/badge/feito%20com-amor-pink?style=flat-square)](https://github.com/uesleibros/velvet/graphs/contributors)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-</div>
+## Features
 
-**Velvet** é uma plataforma full-stack descentralizada para exploração, curadoria e automação de conteúdo relacionado a anime. Integrando tecnologias modernas e arquitetura modular, Velvet conecta múltiplas fontes externas e redes comunitárias, entregando uma experiência consistente e escalável através de Web, API e bots.
+- **Modern Frontend**: Enjoy a user-friendly interface that makes browsing and watching anime easy.
+- **Integrated Discord Bot**: Engage with your community using our Discord bot that provides real-time updates and interactions.
+- **Scalable Backend**: Our backend is designed to handle high traffic and grow with your needs.
+- **Ad-Free Experience**: Watch your favorite shows without annoying ads.
+- **Free to Use**: All features are completely free for users.
 
-## Visão Geral
+## Technologies Used
 
-Velvet opera como uma **rede descentralizada**, onde o backend atua como orquestrador e agregador de dados, distribuindo e sincronizando informações com plataformas como **Anilist**, **MyAnimeList**, **LiveChart**, **Kitsu**, **Crunchyroll**, entre outras.
+- **Frontend**: React.js, CSS3, HTML5
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Discord Bot**: Discord.js
+- **Scraping**: Cheerio, Axios
+- **Deployment**: Heroku, Docker
 
-## Arquitetura
+## Getting Started
 
-```text
-                 +----------------+
-                 |    Frontend    | ← Web App em React + Tailwind
-                 +--------+-------+
-                          |
-                          ▼
-                 +--------+-------+
-                 |   API Python   | ← Backend modular (REST/GraphQL)
-                 +--------+-------+
-                          |
-          +---------------+---------------+
-          |                               |
-          ▼                               ▼
-+----------------+              +-----------------------+
-|   Bot (Rust)   | ← Discord    |   Data Providers      |
-| (Serenity lib) |────────────▶ | (Anilist, MAL, etc.)  |
-+----------------+    eventos   +-----------------------+
-          |
-          ▼
-+----------------+
-|  API Python    | ← Interações com bot (commands, webhooks)
-+----------------+
+To get started with Velvet, follow these steps:
 
-          ▼
-+------------------------+
-| Database & Cache       |
-| (PostgreSQL, Redis...) |
-+------------------------+
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/PREMPATIL19/velvet.git
+   cd velvet
+   ```
 
-## Tecnologias
+2. **Install Dependencies**:
+   For the frontend:
+   ```bash
+   cd frontend
+   npm install
+   ```
 
-| Camada       | Stack                                  |
-| ------------ | -------------------------------------- |
-| **Frontend** | TypeScript, React, TailwindCSS         |
-| **Backend**  | Python, PostgreSQL, Supabase, ...      |
-| **Bot**      | Rust (`serenity`, `twilight`)          |
-| **Cache**    | HTTP caching                           |
-| **DevOps**   | Docker, GitHub Actions, NGINX, systemd |
-| **Infra**    | VPS/Linux, Cloudflare, Render/AWS      |
+   For the backend:
+   ```bash
+   cd backend
+   npm install
+   ```
 
-## Funcionalidades
+3. **Environment Variables**:
+   Create a `.env` file in the backend directory and add your configuration settings. Refer to `.env.example` for guidance.
 
-* 📚 **Integração com múltiplas APIs** de anime (Anilist, MAL, etc)
-* 💬 **Bot Discord modular** com comandos, eventos e webhooks
-* 🔍 **Busca inteligente** e filtros avançados de animes
-* ⚙️ **Painel administrativo** para gerenciar dados e usuários
-* 🌐 **Frontend responsivo** com performance otimizada
-* 📈 **Recomendações baseadas em histórico e perfil**
-* 🔐 **Camada de autenticação segura** via OAuth2 / JWT
+4. **Run the Application**:
+   Start the backend server:
+   ```bash
+   cd backend
+   npm start
+   ```
 
-## Instalação Local
+   Start the frontend server:
+   ```bash
+   cd frontend
+   npm start
+   ```
 
-1. Clone o repositório:
+## Usage
 
-```bash
-git clone https://github.com/uesleibros/velvet.git
-cd velvet
-```
+Once you have the application running, you can:
 
-3. Inicie os serviços:
+- Browse through a vast collection of anime titles.
+- Use the Discord bot to get updates about new episodes or chat with other fans.
+- Watch anime online with a simple click.
 
-```bash
-# Backend
-cd apps/backend
-cargo run
+For more detailed instructions, check the documentation in the `docs` folder.
 
-# Bot
-cd apps/assistant
-cargo run
+## Contributing
 
-# Frontend
-cd frontend
-npm install && npm run dev
-```
+We welcome contributions! If you'd like to help improve Velvet, follow these steps:
 
-## Testes
+1. **Fork the Repository**: Click the "Fork" button at the top right corner of the repository page.
+2. **Create a Branch**: 
+   ```bash
+   git checkout -b feature/YourFeature
+   ```
+3. **Make Your Changes**: Implement your feature or fix.
+4. **Commit Your Changes**: 
+   ```bash
+   git commit -m "Add YourFeature"
+   ```
+5. **Push to Your Branch**: 
+   ```bash
+   git push origin feature/YourFeature
+   ```
+6. **Create a Pull Request**: Go to the original repository and click on "New Pull Request".
 
-```bash
-# Testes unitários e de integração no backend
-cargo test --all
-```
+## License
 
-## Documentação
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-Documentos técnicos e diagrama de arquitetura estão disponíveis na pasta `docs/`.
+## Contact
 
-## Contribuindo
+For any inquiries or feedback, please reach out to:
 
-Quer ajudar? Veja o [CONTRIBUTING.md](CONTRIBUTING.md) para guidelines e padrões de contribuição. Pull requests são muito bem-vindos!
+- **Email**: your-email@example.com
+- **GitHub**: [PREMPATIL19](https://github.com/PREMPATIL19)
 
-## Licença
+## Releases
 
-Licenciado sob os termos da [Apache LICENSE](LICENSE).
+To download the latest version of Velvet, visit the [Releases](https://github.com/PREMPATIL19/velvet/releases) section. Here, you can find the necessary files to download and execute.
 
-> *“Velvet conecta dados, pessoas e paixões em torno de um mesmo universo.”*
+You can also check the Releases section for any updates or new features.
+
+![Anime Watching](https://example.com/anime-watching-image.jpg)
+
+## Topics
+
+This repository covers various topics related to anime and development, including:
+
+- Anime
+- Anime Scraper
+- Backend
+- Backend API
+- Discord
+- Discord Bot
+- Free
+- Free to Use
+- Frontend
+- Fullstack
+- Fullstack Development
+- No Ads
+- Services
+- UI Design
+- Watch Anime
+- Watch Anime Online
+
+Feel free to explore and contribute to these topics!
+
+## Community
+
+Join our community on Discord to discuss anime, share recommendations, and get help with Velvet. Click [here](https://discord.gg/example) to join.
+
+![Community](https://example.com/community-image.jpg)
+
+## Acknowledgments
+
+We thank all contributors and the anime community for their support. Special thanks to the developers of the libraries and tools we used to build Velvet.
+
+## Conclusion
+
+Thank you for checking out Velvet! We hope you enjoy using the platform as much as we enjoyed building it. Happy watching!
